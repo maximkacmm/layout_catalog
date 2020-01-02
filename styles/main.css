@@ -63,6 +63,22 @@
     .nav__link:hover {
       color: #00acdc; }
 
+.nav__link_is-active {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  color: #000;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+
 .is-active {
   color: #00acdc; }
   .is-active::after {
@@ -82,7 +98,6 @@
   width: 200px;
   color: #000;
   margin: auto;
-  font-family: Roboto, serif;
   border: 1px solid #f3f3f3;
   border-radius: 5px; }
   .card__wrapper-picture {
